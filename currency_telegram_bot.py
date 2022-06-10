@@ -59,7 +59,7 @@ def main():
     dispatcher.add_handler(CommandHandler("euro", get_euro))
     dispatcher.add_handler(CommandHandler("gbp", get_gbp))
 
-    # add an handler for normal text (not commands)
+    # add handler for normal text (not commands)
     dispatcher.add_handler(MessageHandler(Filters.text, text))
 
     # start your shiny new bot
