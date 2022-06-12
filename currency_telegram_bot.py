@@ -67,7 +67,7 @@ def main():
     updater.start_webhook(listen='0.0.0.0',
                           port=int(PORT),
                           url_path=TOKEN,
-                          webhook_url=f'https://shielded-hamlet-79363.herokuapp.com/{TOKEN}')
+                          webhook_url=f'https://young-shore-12586.herokuapp.com/{TOKEN}')
 
     # run the bot until Ctrl-C
     updater.idle()
