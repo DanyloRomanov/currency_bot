@@ -19,3 +19,5 @@ git add .
 git commit -m "changing python3 to python in Procfile"
 git push heroku master
 
+heroku logs --tail
+
