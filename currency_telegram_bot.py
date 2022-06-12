@@ -45,7 +45,7 @@ def text(update, context):
 
 
 def main():
-    TOKEN = "5438627941:AAF2qdXdkhzZTrn0yb-pSOvKgTiJRiOHsos"
+    TOKEN = "5407582983:AAH2n5yLmdwSe6sqzUK0CsuJStUCWadBRuM"
 
     # create the updater, that will automatically create also a dispatcher and a queue to
     # make them dialogue
